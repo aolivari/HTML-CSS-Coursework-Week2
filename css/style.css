@@ -591,28 +591,45 @@ button:hover {
 
 .social__collections {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content:center;
+  align-items:center ;
   flex-direction: column;
+
+}
+
+.social__icons {
+width: 200px;
+display: flex;
+justify-content: space-around;
+padding-bottom: 20px;
 }
 
 .social__icons > li {
-  border-radius: 1.25rem;
   width: 2.5rem;
   height: 2.5rem;
   display: inline-block;
   margin: 1.25rem 5px;
-  border: 1px solid #eaebec;
   padding: 0.625rem 0;
   text-align: center;
+ 
 }
 
+.social__collections img {
+
+width: 50px;
+border:1px solid rgba(128, 128, 128, 0.473);
+border-radius: 50%;
+padding: 10px 10px;
+
+
+}
 .social__icons > li:hover {
   cursor: pointer;
 }
 
 .social__twitter {
   color: #55acee;
+  
 }
 
 .social__facebook {
@@ -621,6 +638,7 @@ button:hover {
 
 .social__instagram {
   color: #3f729b;
+  
 }
 
 .social .copy {
