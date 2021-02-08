@@ -475,6 +475,21 @@ th {
   align-items: center;
 }
 
+@media(max-width:500px){
+  .intro{
+  background-image: url("../img/first-background.jpg");
+  background-position: 65% bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 480px;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+}
+
 .intro__content {
   padding: 0;
   color: #1d1e21;
