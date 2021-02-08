@@ -475,6 +475,37 @@ th {
   align-items: center;
 }
 
+@media(max-width:500px){
+  .intro{
+  background-image: url("../img/first-background.jpg");
+  background-position: 65% bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 480px;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro__h1, .intro__h3 {
+  color: white;
+  font-weight: 300;
+  font-size: 3.125rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.intro__h3 {
+  font-size: 1.563rem;
+  text-align: center;
+  white-space: pre-line;
+  
+}
+
+  
+}
+}
+
 .intro__content {
   padding: 0;
   color: #1d1e21;
@@ -540,6 +571,28 @@ button:hover {
   margin-left: 6rem;
   font-weight: 300;
   align-self: center;
+  
+}
+
+@media(max-width:500px){
+
+   .cases__content h2{
+    text-align: center;
+    margin: auto;
+  } 
+
+    .cases__content{
+    margin-top:20%;
+  }
+
+    .cases__devices  {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    margin-top: 20%;
+    align-items: center;
+    
+  }
 }
 
 .cases__devices {
@@ -646,3 +699,14 @@ padding: 10px 10px;
   font-weight: 300;
   color: #838994;
 }
+
+
+/*esto tiene que estar para salvar*/
+
+
+.social__collections img {
+
+  width: 50px;
+  border:1px solid rgba(128, 128, 128, 0.473);
+  border-radius: 50%;
+  padding: 10px 10px;
