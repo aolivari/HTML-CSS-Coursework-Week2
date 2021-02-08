@@ -571,6 +571,28 @@ button:hover {
   margin-left: 6rem;
   font-weight: 300;
   align-self: center;
+  
+}
+
+@media(max-width:500px){
+
+   .cases__content h2{
+    text-align: center;
+    margin: auto;
+  } 
+
+    .cases__content{
+    margin-top:20%;
+  }
+
+    .cases__devices  {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    margin-top: 20%;
+    align-items: center;
+    
+  }
 }
 
 .cases__devices {
@@ -659,3 +681,10 @@ button:hover {
   font-weight: 300;
   color: #838994;
 }
+
+.social__collections img {
+
+  width: 50px;
+  border:1px solid rgba(128, 128, 128, 0.473);
+  border-radius: 50%;
+  padding: 10px 10px;
