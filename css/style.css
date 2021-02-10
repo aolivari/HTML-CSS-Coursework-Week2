@@ -503,6 +503,33 @@ th {
   
   }
 
+
+   /*desde aqui el menu escondido (no pude seguir avanzando)*/
+
+   .navigation__list li:first-of-type{
+    color:transparent;
+    font-weight: 500;
+  }
+  .navigation__list {
+    background-color: rgba(135, 71, 255, 0.212);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+    color: transparent;
+  }
+  .navigation__item:nth-of-type(n+4) {
+    border-bottom: solid 2px black;
+    margin:-62px 79px 49px 110px;
+    
+  }
+
+
+
+
+
+
+
+  /*hasta aqui*/
   
 }
   
